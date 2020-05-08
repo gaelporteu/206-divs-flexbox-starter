@@ -12,7 +12,7 @@
 
 html {
     color: #222;
-    font-size: 1em;
+    font-size: 16px;
     line-height: 1.4;
 }
 
@@ -97,12 +97,12 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #222;
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
@@ -110,7 +110,6 @@ body {
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
   display: flex;
   justify-content: space-between;
 }
@@ -118,14 +117,22 @@ body {
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  line-height: 1.75em;
+  /* background-color: #f16059; */
+  border-radius: 10px;
   width: 30%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  align-self: flex-start;
+  padding: 1em;
+}
+
+.div-2 {
+  border-left: 1px #fff solid;
+  padding-left: 2em;
+  border-right: 1px #fff solid;
+  padding-right: 1em;
 }
 
 
